@@ -1,0 +1,6 @@
+C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\ShoppingLib\ShoppingLib\bin\Debug\ShoppingLib.dll
+C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\ShoppingLib\ShoppingLib\bin\Debug\ShoppingLib.pdb
+C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\ShoppingLib\ShoppingLib\obj\Debug\ShoppingLib.csproj.AssemblyReference.cache
+C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\ShoppingLib\ShoppingLib\obj\Debug\ShoppingLib.csproj.CoreCompileInputs.cache
+C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\ShoppingLib\ShoppingLib\obj\Debug\ShoppingLib.dll
+C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\ShoppingLib\ShoppingLib\obj\Debug\ShoppingLib.pdb
