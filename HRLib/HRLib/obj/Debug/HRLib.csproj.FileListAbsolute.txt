@@ -1,6 +1,0 @@
-C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\HRLib\HRLib\obj\Debug\HRLib.csproj.AssemblyReference.cache
-C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\HRLib\HRLib\obj\Debug\HRLib.csproj.CoreCompileInputs.cache
-C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\HRLib\HRLib\bin\Debug\HRLib.dll
-C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\HRLib\HRLib\bin\Debug\HRLib.pdb
-C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\HRLib\HRLib\obj\Debug\HRLib.dll
-C:\Users\w127361\OneDrive - Worldline\Bureau\DotNet Project\HRLib\HRLib\obj\Debug\HRLib.pdb
