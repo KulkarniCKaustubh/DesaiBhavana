@@ -1,0 +1,45 @@
+***************************ATM DATABASE SCRIPT*****************************
+
+create database ATMData;
+use atmdata;
+
+Create Table Carddetails (
+CustomerName varchar(20) not null, CardNumber varchar(16) Not null, Pin varchar(4) not null, primary key(CustomerName))
+
+INSERT INTO carddetails VALUES ("Kaustubh", 1477852269334566, 1110);
+INSERT INTO carddetails VALUES ("Marvel",   1234567899876542, 1122);
+INSERT INTO carddetails VALUES ("Nick",     8765432112345678, 2233);
+INSERT INTO carddetails VALUES ("Peter",    7788994455662211, 3344);
+INSERT INTO carddetails VALUES ("Wanda",    1122334455667788, 4455);
+INSERT INTO carddetails VALUES ("Bruce",    8877445566331122, 5566);
+INSERT INTO carddetails VALUES ("Carol",    7744112255889966, 6677);
+INSERT INTO carddetails VALUES ("Marc",     7474141485859696, 7788);
+INSERT INTO carddetails VALUES ("Wade",     9898989898987788, 8899);
+INSERT INTO carddetails VALUES ("Thor",     1431431431431432, 9911);
+INSERT INTO carddetails VALUES ("Tony",     1433000143300014, 1432);
+INSERT INTO carddetails VALUES ("Steve",    1122447799523654, 1234);
+
+use atmdata;
+
+create table Accinfo (
+AccNo int not null, AccBal numeric (7, 2), 
+tranctiondate datetime,
+ CustomerName varchar(20), foreign key (CustomerName) references carddetails(CustomerName));
+ 
+ 
+insert into Accinfo values (1234567890, 25000, '2022-05-01', "Kaustubh");
+insert into Accinfo values (0987456321, 40000, '2022-04-05', "Marvel");
+insert into Accinfo values (1212121211, 26000, '2022-06-01', "Nick");
+insert into Accinfo values (1418529636, 25000, '2022-01-01', "Peter");
+insert into Accinfo values (1587419635, 28000, '2022-08-01', "Wanda");
+insert into Accinfo values (1531596547, 27000, '2022-09-01', "Bruce");
+insert into Accinfo values (1531596548, 24561, '2022-08-04', "Carol");
+insert into Accinfo values (1413698521, 24233, '2022-09-09', "Marc");
+insert into Accinfo values (1974653214, 22100, '2022-05-11', "Wade");
+insert into Accinfo values (1855226644, 22500, '2022-01-10', "Thor");
+insert into Accinfo values (1554332211, 29000, '2022-03-12', "Tony");
+insert into Accinfo values (1122334455, 27000, '2022-05-05', "Steve");
+
+
+
+tr id, cardno, bal
