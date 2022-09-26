@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFATM.Views.ATMTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFATM.Views"
+        xmlns:vm="clr-namespace:WPFATM.ViewModels"
+        mc:Ignorable="d"
+        Title="ATMTask" Height="450" Width="800" WindowState="Maximized">
+    <Window.Resources>
+        <vm:ATMViewModel x:Key="atmviewObj"/>
+    </Window.Resources>
+    <StackPanel Background="Wheat" DataContext="{StaticResource atmviewObj}">
+        <Label Content="Welcome to ATM" FontSize="20" 
+               HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold"/>
+        
+        <Label Content="Choose the Option" FontSize="16" 
+               HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold"/>
+
+        <Button Content="Check Balance" Command="{Binding ChekBalCommand}"/>
+        
+        <Button Content="Mini Statement" Command="{Binding MinistmtCommand}"/>
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPFATM.Views.MiniStatementForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFATM.Views"
+        xmlns:vm="clr-namespace:WPFATM.ViewModels"
+        mc:Ignorable="d"
+        Title="MiniStatementForm" Height="450" Width="800" WindowState="Maximized">
+    <Window.Resources>
+        <vm:ATMViewModel x:Key="atmviewmodelObj" />
+    </Window.Resources>
+    <StackPanel DataContext="{StaticResource atmviewmodelObj}" Background="MediumAquamarine">
+        <Label Content="MINI STATEMENT" FontSize="20" 
+               HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1" FontFamily="Times New Roman" FontWeight="Bold"/>
+
+        <DataGrid Name="dataGrid" Grid.Row="3" AutoGenerateColumns="True" Height="300" ItemsSource="{Binding ShowMinistmtCommand}"/>
+
+    </StackPanel>
+</Window>
